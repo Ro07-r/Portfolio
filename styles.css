@@ -1,34 +1,12 @@
-.menu {
-  display: flex;
-  justify-content: left;
-  width: 200%;
-  height: 60px;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-
-.menu a:hover {  
-  transition: ease-in .5s;
-  color: lightgrey;
-  }
-
-.menu li {
+.container {
+  font-size: large;
   list-style: none;  
-  }
+}
 
-.menu a {
-  text-decoration: none;
-  padding: 10px 20px;
-  font-family: 'Varta', sans-serif;
-  font-size:large;
-  color: white;
-  }
-
-.menu li a {
-  display: flex;
-  align-items: center;
-  }
+.container a:hover {  
+  transition: ease-in .5s;
+  color:black; 
+}
 
 .Acerca p {
   display: flex;
@@ -37,19 +15,12 @@
   text-align: center;
   font-family: 'Hahmlet', serif;
   font-size: medium;
-  }
+}
 
 h1 {
   padding-left: 30px;
   font-family: 'Open Sans', sans-serif;  
-  }
-
-hr {
-  width: 50px;
-  text-align: left;
-  margin-left: 0;
-  color: lightgreen;  
-  }
+}
 
 .divider {
     height: 4px;
@@ -57,7 +28,7 @@ hr {
     background-color: #b0ebfa;
     margin-top: 10px;
     margin-bottom: 2em;
-  }
+}
 
 #perfil {
   width: 250px;
@@ -65,7 +36,7 @@ hr {
   border-radius: 200%;
   float: left;
   margin-right: 40px;
-  }
+}
 
 .Educación p {  
   font-family: 'Hahmlet', serif;
@@ -76,42 +47,20 @@ hr {
   padding-left: 30px;
   font-family: 'Hahmlet', serif;
   font-size: medium;
-  }
+}
 
 .github a {
   text-decoration: none;
   color:  #212f3d;
   font-size: medium;
-  }
+}
 
 .Contacto h2 {  
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgba(0,0,0,0.9);
   padding-left: 10px;
-  }
+}
 
 img {
   border-radius: 60%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
