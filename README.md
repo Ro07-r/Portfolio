@@ -1,3 +1,3 @@
 ✤Portfolio✤
 
-💻HTML - CSS - RESPONSIVE
+💻HTML - CSS - BOOTSTRAP
